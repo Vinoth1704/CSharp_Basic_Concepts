@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vinoth.jayakumar\\Documents\\Learn\\C#\\C#.csproj": {}
+    "C:\\Users\\vinoth.jayakumar\\Documents\\GITHUB\\CSharp_Basic_Concepts\\C#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vinoth.jayakumar\\Documents\\Learn\\C#\\C#.csproj": {
+    "C:\\Users\\vinoth.jayakumar\\Documents\\GITHUB\\CSharp_Basic_Concepts\\C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vinoth.jayakumar\\Documents\\Learn\\C#\\C#.csproj",
+        "projectUniqueName": "C:\\Users\\vinoth.jayakumar\\Documents\\GITHUB\\CSharp_Basic_Concepts\\C#.csproj",
         "projectName": "C#",
-        "projectPath": "C:\\Users\\vinoth.jayakumar\\Documents\\Learn\\C#\\C#.csproj",
+        "projectPath": "C:\\Users\\vinoth.jayakumar\\Documents\\GITHUB\\CSharp_Basic_Concepts\\C#.csproj",
         "packagesPath": "C:\\Users\\vinoth.jayakumar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vinoth.jayakumar\\Documents\\Learn\\C#\\obj\\",
+        "outputPath": "C:\\Users\\vinoth.jayakumar\\Documents\\GITHUB\\CSharp_Basic_Concepts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vinoth.jayakumar\\AppData\\Roaming\\NuGet\\NuGet.Config"
