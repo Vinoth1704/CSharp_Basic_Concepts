@@ -225,6 +225,14 @@ namespace Learn
             Person.changeName(p1);
             Console.WriteLine($"After changing name = {p1.Name}");
 
+            //Array of objects
+            Person[] personArray = new Person[2];
+            personArray[0] = new Person("Albert", 25);
+            personArray[1] = new Person("Ben", 39);
+            Console.WriteLine(personArray[0].Name);
+
+            
+
         }
     }
 }
