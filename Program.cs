@@ -10,6 +10,7 @@ class Program
         // Loopings.Looping();
         // Arrays.Arrayss();
         // Methods.Method();
-        Classes.Class();
+        // Classes.Class();
+        Collections.Collection();
     }
 }
