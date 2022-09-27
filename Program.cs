@@ -11,6 +11,11 @@ class Program
         // Arrays.Arrayss();
         // Methods.Method();
         // Classes.Class();
-        Collections.Collection();
+        // Collections.Collection();
+        // ExceptionHandlings.ExceptionHandling();
+        // Asynchoronus.ASynchoronus();
+        Threads.Threadss();
+        // Parallel_Programmings.ParallelProgrammings();
+        Console.Read();
     }
 }

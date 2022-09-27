@@ -59,14 +59,17 @@ namespace Learn
             // myCarList.Add(bike1);//You can't add other class object to this list.
             foreach (Car car in myCarList)
             {
-                Console.WriteLine(car.Make);
+                Console.WriteLine("List " + car.Make);
             }
 
             //Dictionary<TKey,TValue>
             Dictionary<string, Car> myDictionary = new Dictionary<string, Car>();
             myDictionary.Add("A1", car1);
-            myDictionary.Add("B1", car2);
-            Console.WriteLine(myDictionary["B1"].Model);
+            myDictionary.Add(car2.VIN!, car2);
+            Console.WriteLine("Dictionary " + myDictionary["A1"].Make);
+            Console.WriteLine("Dictionary " + myDictionary[car2.VIN!].Make);
+
+
 
             //Object initailizer
             Car car3 = new Car() { Make = "Suzuki", Model = "Ciaz", VIN = "F1" };
@@ -78,9 +81,6 @@ namespace Learn
                 new Car{Make="Honda",Model="City",VIN="C1"},
                 new Car{Make="Nissan",Model="GTR",VIN="D1"}
             };
-
-
-
         }
     }
 }
