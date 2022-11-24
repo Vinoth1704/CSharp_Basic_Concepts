@@ -15,8 +15,9 @@ class Program
         // ExceptionHandlings.ExceptionHandling();
         // Asynchoronus.ASynchoronus();
         // Threads.Threadss();
-        LINQ.Linq();
+        // LINQ.Linq();
         // Parallel_Programmings.ParallelProgrammings();
         // Console.Read();
+        Async.async();
     }
 }
