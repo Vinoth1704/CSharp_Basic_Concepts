@@ -9,13 +9,12 @@ namespace Learn
             // Thread.Sleep(TimeSpan.FromSeconds(5));
             // await Task.Delay(TimeSpan.FromSeconds(5));
             await wait();
-            Console.WriteLine("\n");
             Console.WriteLine("Some Method End");
         }
         public async static Task<string> wait()
         {
             await Task.Delay(TimeSpan.FromSeconds(5));
-            Console.WriteLine("1 s completed");
+            Console.WriteLine("5 s completed");
             return "hello";
         }
 
@@ -56,10 +55,10 @@ namespace Learn
 
         public static void async()
         {
-            // Console.WriteLine("Main Method Started......");
-            // SomeMethod();
-            // Console.WriteLine("Main Method End");
-            callMethod();
+            Console.WriteLine("Main Method Started......");
+            SomeMethod();
+            Console.WriteLine("Main Method End");
+            // callMethod();
             Console.ReadKey();
         }
     }
