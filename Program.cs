@@ -18,6 +18,6 @@ class Program
         // LINQ.Linq();
         // Parallel_Programmings.ParallelProgrammings();
         // Console.Read();
-        Async.async();
+        // Async.async();
     }
 }

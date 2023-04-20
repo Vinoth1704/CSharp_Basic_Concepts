@@ -74,7 +74,7 @@ namespace Learn
             bool nameEquals = string.Equals(FirstName, SecondName); // compare both names using in-built method.
             Console.WriteLine("If FirstName is equals to SecondName = " + nameEquals);
 
-            int nameEqual = FirstName.CompareTo(SecondName); // it returns 0 is both names are equal or -1 when first name is lesser than second name or 1 when 
+            int nameEqual = FirstName.CompareTo(SecondName); // it returns 0 is both names are equal or -1 when first name is lesser than second name or 1 when second name is lesser than First name
             Console.WriteLine("If FirstName is equals to SecondName = " + nameEqual);
 
             Console.WriteLine($"{FirstName} has {FirstName.Length} characters"); // ".Length" gives you the total length of the string.
