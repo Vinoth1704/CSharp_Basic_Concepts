@@ -1,8 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "4ndDw89831oOv7AHXdVYm/Mb7tMaO0MxekBZfgr5kLqpHLHznyY126dN95zrnwcFfUm+GCeoTcOFxpXB1nElJA==",
+  "dgSpecHash": "U1YlTnN5RyMpVYqSjXTkOcfq6KUhbNUcV1hccYDeYhgOG+OUVzAY3zWn9kQ8PhtawRLp2Sk6j8OSbZuAkm2dkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vinoth.jayakumar\\Documents\\GITHUB\\CSharp_Basic_Concepts\\C#.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Vinoth\\GITHUB\\CSharp_Basic_Concepts\\C#.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vinoth.jayakumar\\.nuget\\packages\\funky\\3.0.0\\funky.3.0.0.nupkg.sha512",
+    "C:\\Users\\vinoth.jayakumar\\.nuget\\packages\\gembox.spreadsheet\\49.0.1301\\gembox.spreadsheet.49.0.1301.nupkg.sha512",
+    "C:\\Users\\vinoth.jayakumar\\.nuget\\packages\\harfbuzzsharp\\2.8.2\\harfbuzzsharp.2.8.2.nupkg.sha512",
+    "C:\\Users\\vinoth.jayakumar\\.nuget\\packages\\harfbuzzsharp.nativeassets.macos\\2.8.2\\harfbuzzsharp.nativeassets.macos.2.8.2.nupkg.sha512",
+    "C:\\Users\\vinoth.jayakumar\\.nuget\\packages\\harfbuzzsharp.nativeassets.win32\\2.8.2\\harfbuzzsharp.nativeassets.win32.2.8.2.nupkg.sha512",
+    "C:\\Users\\vinoth.jayakumar\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\vinoth.jayakumar\\.nuget\\packages\\portable.bouncycastle\\1.8.9\\portable.bouncycastle.1.8.9.nupkg.sha512",
+    "C:\\Users\\vinoth.jayakumar\\.nuget\\packages\\reflections\\3.0.0\\reflections.3.0.0.nupkg.sha512",
+    "C:\\Users\\vinoth.jayakumar\\.nuget\\packages\\skiasharp\\2.88.3\\skiasharp.2.88.3.nupkg.sha512",
+    "C:\\Users\\vinoth.jayakumar\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.3\\skiasharp.nativeassets.macos.2.88.3.nupkg.sha512",
+    "C:\\Users\\vinoth.jayakumar\\.nuget\\packages\\skiasharp.nativeassets.win32\\2.88.3\\skiasharp.nativeassets.win32.2.88.3.nupkg.sha512",
+    "C:\\Users\\vinoth.jayakumar\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\vinoth.jayakumar\\.nuget\\packages\\system.text.encoding.codepages\\5.0.0\\system.text.encoding.codepages.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

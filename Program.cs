@@ -19,5 +19,8 @@ class Program
         // Parallel_Programmings.ParallelProgrammings();
         // Console.Read();
         // Async.async();
+        // Reflection.Reflections();
+        // FileHandlings.FileHandling();
+        Excel.ExcelMain();
     }
 }

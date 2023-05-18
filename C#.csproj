@@ -8,4 +8,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="GemBox.Spreadsheet" Version="49.0.1301" />
+    <PackageReference Include="Reflections" Version="3.0.0" />
+  </ItemGroup>
+
 </Project>
