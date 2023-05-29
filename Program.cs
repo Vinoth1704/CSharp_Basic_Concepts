@@ -1,3 +1,4 @@
+using ExtensionMethods;
 namespace Learn;
 class Program
 {
@@ -21,6 +22,10 @@ class Program
         // Async.async();
         // Reflection.Reflections();
         // FileHandlings.FileHandling();
-        Excel.ExcelMain();
+        // Excel.ExcelMain();
+        // int x = 5;
+        // Console.WriteLine(Extension_Methods.IncreaseCount(x));
+        // Console.WriteLine(x.IncreaseCount());
+        Delegates.Delegate();
     }
 }

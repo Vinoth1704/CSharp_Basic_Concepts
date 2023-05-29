@@ -41,7 +41,7 @@ namespace Learn
             Car car2 = new Car("Volkswagen", "Polo", "B1");
             Bike bike1 = new Bike(2000, "yamaha");
 
-            ArrayList myArrayList = new ArrayList(); //ArrayList allows 
+            ArrayList myArrayList = new ArrayList(); //ArrayList is not generic so it allows any type of data
             myArrayList.Add(car1);
             myArrayList.Add(car2);
             myArrayList.Add(bike1);
