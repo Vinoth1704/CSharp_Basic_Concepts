@@ -8,10 +8,14 @@ namespace Learn
             // PrintNameDelegate del = new PrintNameDelegate(PrintName);
             // del += PrintFullName;
             // del("Alex");
-            DisplayName("Alex", PrintName);
+            Delegates D = new Delegates();
+            DisplayName("Alex", D.PrintName);
+
+            Predicate<int> P = new Predicate<int>(IsMinor);
+            Console.WriteLine(P(19));
         }
 
-        public static void PrintName(string Name)
+        public void PrintName(string Name)
         {
             Console.WriteLine(Name);
         }
@@ -23,6 +27,11 @@ namespace Learn
         public static void DisplayName(string Name, PrintNameDelegate print)
         {
             print(Name);
+        }
+
+        public static bool IsMinor(int age)
+        {
+            return age > 18 ? true : false;
         }
     }
 }

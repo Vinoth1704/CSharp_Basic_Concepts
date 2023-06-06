@@ -26,6 +26,11 @@ class Program
         // int x = 5;
         // Console.WriteLine(Extension_Methods.IncreaseCount(x));
         // Console.WriteLine(x.IncreaseCount());
-        Delegates.Delegate();
+        // Delegates.Delegate();
+        // Private_Constructor.getInstance();
+        // Non_Static ns = new Non_Static();
+        // Shallow_Copy.Shallow_Copy_Main();
+        Deep_Copy.Deep_Copy_Main();
+        
     }
 }
