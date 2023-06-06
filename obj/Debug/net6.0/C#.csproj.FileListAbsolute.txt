@@ -58,3 +58,5 @@ D:\Vinoth\GITHUB\CSharp_Basic_Concepts\bin\Debug\net6.0\runtimes\osx\native\libS
 D:\Vinoth\GITHUB\CSharp_Basic_Concepts\bin\Debug\net6.0\runtimes\win-arm64\native\libSkiaSharp.dll
 D:\Vinoth\GITHUB\CSharp_Basic_Concepts\bin\Debug\net6.0\runtimes\win-x64\native\libSkiaSharp.dll
 D:\Vinoth\GITHUB\CSharp_Basic_Concepts\bin\Debug\net6.0\runtimes\win-x86\native\libSkiaSharp.dll
+D:\Vinoth\GITHUB\CSharp_Basic_Concepts\bin\Debug\net6.0\GemBox.Pdf.dll
+D:\Vinoth\GITHUB\CSharp_Basic_Concepts\bin\Debug\net6.0\Pkcs11Interop.dll

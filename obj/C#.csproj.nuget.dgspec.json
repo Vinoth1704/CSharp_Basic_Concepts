@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "GemBox.Pdf": {
+              "target": "Package",
+              "version": "[17.0.1342, )"
+            },
             "GemBox.Spreadsheet": {
               "target": "Package",
               "version": "[49.0.1301, )"

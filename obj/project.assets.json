@@ -11,6 +11,25 @@
           "lib/netstandard2.0/Funky.dll": {}
         }
       },
+      "GemBox.Pdf/17.0.1342": {
+        "type": "package",
+        "dependencies": {
+          "HarfBuzzSharp": "2.8.2",
+          "Pkcs11Interop": "5.1.1",
+          "Portable.BouncyCastle": "1.8.9",
+          "SkiaSharp": "2.88.3",
+          "System.Text.Encoding.CodePages": "5.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/GemBox.Pdf.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/GemBox.Pdf.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/GemBox.Pdf.targets": {}
+        }
+      },
       "GemBox.Spreadsheet/49.0.1301": {
         "type": "package",
         "dependencies": {
@@ -85,6 +104,15 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Pkcs11Interop/5.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Pkcs11Interop.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Pkcs11Interop.dll": {}
         }
       },
       "Portable.BouncyCastle/1.8.9": {
@@ -200,6 +228,35 @@
         "funky.nuspec",
         "lib/netstandard2.0/Funky.dll",
         "lib/netstandard2.0/Funky.xml"
+      ]
+    },
+    "GemBox.Pdf/17.0.1342": {
+      "sha512": "TtNKkFMWKa0yIwd1mQOBzvEmF8X6doQmYpRWywPEZ55+krEbRy67NGk2PbdjvveQHiVcPbjkAuSPSPA91E4JSw==",
+      "type": "package",
+      "path": "gembox.pdf/17.0.1342",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "PackageIcon.png",
+        "README.md",
+        "build/netstandard2.0/GemBox.Pdf.targets",
+        "build/netstandard2.0/libpkcs11-mock.a",
+        "buildTransitive/netstandard2.0/GemBox.Pdf.targets",
+        "gembox.pdf.17.0.1342.nupkg.sha512",
+        "gembox.pdf.nuspec",
+        "lib/net35/GemBox.Pdf.dll",
+        "lib/net35/GemBox.Pdf.xml",
+        "lib/net6.0-windows7.0/GemBox.Pdf.dll",
+        "lib/net6.0-windows7.0/GemBox.Pdf.xml",
+        "lib/netstandard2.0/GemBox.Pdf.dll",
+        "lib/netstandard2.0/GemBox.Pdf.xml",
+        "licenses/EULA.txt",
+        "licenses/ThirdPartyCodeLicenses/CSJ2K License.txt",
+        "licenses/ThirdPartyCodeLicenses/DotNetZip License.txt",
+        "licenses/ThirdPartyCodeLicenses/JBig2Decoder.NET License.txt",
+        "licenses/ThirdPartyCodeLicenses/LibJpeg.NET License.txt",
+        "licenses/ThirdPartyCodeLicenses/LibTiff.NET License.txt",
+        "licenses/ThirdPartyCodeLicenses/ZLIB.NET License.txt"
       ]
     },
     "GemBox.Spreadsheet/49.0.1301": {
@@ -353,6 +410,27 @@
         "runtime.json",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Pkcs11Interop/5.1.1": {
+      "sha512": "YDj3v4LN318ToSLeg+5NSJUhH2rpmUGsQN/XL87rMVkq5iZnaV759c3unFJR+W83hGV72I8aa6v+eI8jnstFlg==",
+      "type": "package",
+      "path": "pkcs11interop/5.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "NOTICE.txt",
+        "lib/net20/Pkcs11Interop.dll",
+        "lib/net20/Pkcs11Interop.xml",
+        "lib/net40/Pkcs11Interop.dll",
+        "lib/net40/Pkcs11Interop.xml",
+        "lib/net45/Pkcs11Interop.dll",
+        "lib/net45/Pkcs11Interop.xml",
+        "lib/netstandard2.0/Pkcs11Interop.dll",
+        "lib/netstandard2.0/Pkcs11Interop.xml",
+        "pkcs11interop.5.1.1.nupkg.sha512",
+        "pkcs11interop.nuspec"
       ]
     },
     "Portable.BouncyCastle/1.8.9": {
@@ -572,6 +650,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "GemBox.Pdf >= 17.0.1342",
       "GemBox.Spreadsheet >= 49.0.1301",
       "Reflections >= 3.0.0"
     ]
@@ -613,6 +692,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "GemBox.Pdf": {
+            "target": "Package",
+            "version": "[17.0.1342, )"
+          },
           "GemBox.Spreadsheet": {
             "target": "Package",
             "version": "[49.0.1301, )"

@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "C#/1.0.0": {
         "dependencies": {
+          "GemBox.Pdf": "17.0.1342",
           "GemBox.Spreadsheet": "49.0.1301",
           "Reflections": "3.0.0"
         },
@@ -20,6 +21,21 @@
           "lib/netstandard2.0/Funky.dll": {
             "assemblyVersion": "3.0.0.0",
             "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "GemBox.Pdf/17.0.1342": {
+        "dependencies": {
+          "HarfBuzzSharp": "2.8.2",
+          "Pkcs11Interop": "5.1.1",
+          "Portable.BouncyCastle": "1.8.9",
+          "SkiaSharp": "2.88.3",
+          "System.Text.Encoding.CodePages": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GemBox.Pdf.dll": {
+            "assemblyVersion": "17.0.0.1342",
+            "fileVersion": "17.0.200.1342"
           }
         }
       },
@@ -79,6 +95,14 @@
         }
       },
       "Microsoft.NETCore.Platforms/5.0.0": {},
+      "Pkcs11Interop/5.1.1": {
+        "runtime": {
+          "lib/netstandard2.0/Pkcs11Interop.dll": {
+            "assemblyVersion": "5.1.1.0",
+            "fileVersion": "5.1.1.0"
+          }
+        }
+      },
       "Portable.BouncyCastle/1.8.9": {
         "runtime": {
           "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
@@ -159,6 +183,13 @@
       "path": "funky/3.0.0",
       "hashPath": "funky.3.0.0.nupkg.sha512"
     },
+    "GemBox.Pdf/17.0.1342": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TtNKkFMWKa0yIwd1mQOBzvEmF8X6doQmYpRWywPEZ55+krEbRy67NGk2PbdjvveQHiVcPbjkAuSPSPA91E4JSw==",
+      "path": "gembox.pdf/17.0.1342",
+      "hashPath": "gembox.pdf.17.0.1342.nupkg.sha512"
+    },
     "GemBox.Spreadsheet/49.0.1301": {
       "type": "package",
       "serviceable": true,
@@ -193,6 +224,13 @@
       "sha512": "sha512-VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
       "path": "microsoft.netcore.platforms/5.0.0",
       "hashPath": "microsoft.netcore.platforms.5.0.0.nupkg.sha512"
+    },
+    "Pkcs11Interop/5.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YDj3v4LN318ToSLeg+5NSJUhH2rpmUGsQN/XL87rMVkq5iZnaV759c3unFJR+W83hGV72I8aa6v+eI8jnstFlg==",
+      "path": "pkcs11interop/5.1.1",
+      "hashPath": "pkcs11interop.5.1.1.nupkg.sha512"
     },
     "Portable.BouncyCastle/1.8.9": {
       "type": "package",

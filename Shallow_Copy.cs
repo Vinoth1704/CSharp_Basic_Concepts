@@ -28,10 +28,10 @@ namespace Learn
 
         public Employee GetClone()
         {
-            // return (Employee)this.MemberwiseClone(); //Shallow copy
-            Employee employee = (Employee)this.MemberwiseClone();
-            employee.employeeAddress = employeeAddress!.GetClone();
-            return employee;
+            return (Employee)this.MemberwiseClone(); //Shallow copy
+            // Employee employee = (Employee)this.MemberwiseClone(); //Deep copy
+            // employee.employeeAddress = employeeAddress!.GetClone(); //Deep copy
+            // return employee; //Deep copy
         }
 
     }
