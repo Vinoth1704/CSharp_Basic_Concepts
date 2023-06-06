@@ -2,7 +2,7 @@ namespace Learn
 {
     public class Non_Static
     {
-        static string s;
+        static string s = string.Empty;
         static Non_Static()
         {
             Console.WriteLine("Static constructor");
@@ -10,7 +10,7 @@ namespace Learn
 
         public Non_Static()
         {
-            Console.WriteLine("Non-Static constructor");            
+            Console.WriteLine("Non-Static constructor");
         }
     }
 }

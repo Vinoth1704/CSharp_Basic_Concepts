@@ -2,7 +2,7 @@ namespace Learn
 {
     public class Private_Constructor
     {
-        public static Private_Constructor instance;
+        public static Private_Constructor? instance;
         private static int x;
         private Private_Constructor()
         {
