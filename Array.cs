@@ -116,7 +116,7 @@ namespace Learn
             int[][] JaggedArray = new int[3][];
             JaggedArray[0] = new int[2] { 1, 2 };
             JaggedArray[1] = new int[3] { 1, 2, 3 };
-            JaggedArray[2] = new int[2] { 5, 6 };
+            JaggedArray[2] = new int[]{ 5, 6 };
             for (int i = 0; i < 3; i++)
             {
                 for (int j = 0; j < JaggedArray[i].Length; j++)

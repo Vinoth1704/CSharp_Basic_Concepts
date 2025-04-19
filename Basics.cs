@@ -1,4 +1,6 @@
 
+using System.Reflection.Metadata;
+
 namespace Learn
 {
     class Basics
@@ -18,7 +20,7 @@ namespace Learn
             Console.WriteLine(character);
             Console.WriteLine("The value of int is {0} and the value of long is {1}.", age, number);
             Console.WriteLine("The complier allocates the specified space for the value {1,10}.", age, number); //{,x} x allocates the space for the value.
-            Console.WriteLine("The value of int is {0} and the value of long is {1,-10}.", age, number);
+            Console.WriteLine("The value of int is {0} and the value of long is {1,-10}.", age, number); //string formatter
             Console.WriteLine($"The value of int is {age} and the value of boolean is {compare}"); // string interpolation.
             Console.WriteLine("The value of char is " + character); // binded strings.
 
@@ -77,10 +79,13 @@ namespace Learn
             int nameEqual = FirstName.CompareTo(SecondName); // it returns 0 is both names are equal or -1 when first name is lesser than second name or 1 when second name is lesser than First name
             Console.WriteLine("If FirstName is equals to SecondName = " + nameEqual);
 
+            bool nameReferenceEquals = object.ReferenceEquals(FirstName, SecondName); // Compares both variables reference
+            Console.WriteLine("If FirstName reference is equals to SecondName reference = " + nameReferenceEquals);
+
             Console.WriteLine($"{FirstName} has {FirstName.Length} characters"); // ".Length" gives you the total length of the string.
 
             string firstCharacterOfName = FirstName.Substring(0, 1);
-            //                                                | |_ _ _ Number of charcter
+            //                                                |  |_ _ _ Number of charcter
             //                                                |_ _ _ _ starting point of the string
             Console.WriteLine(firstCharacterOfName);
             string middleSectionOfName = FirstName.Substring(1, 3);

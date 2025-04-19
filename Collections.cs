@@ -15,6 +15,13 @@ namespace Learn
             this.VIN = VIN;
         }
 
+        // Copy constructor
+        public Car(Car carObject){
+            this.Make = carObject.Make;
+            this.Model = carObject.Model;
+            this.VIN = carObject.VIN;
+        }
+
         public Car()
         {
 
@@ -39,6 +46,7 @@ namespace Learn
         {
             Car car1 = new Car("Skoda", "Rapid", "A1");
             Car car2 = new Car("Volkswagen", "Polo", "B1");
+            Car car3 = new Car(car2); //Create a object using the copy constructor
             Bike bike1 = new Bike(2000, "yamaha");
 
             ArrayList myArrayList = new ArrayList(); //ArrayList is not generic so it allows any type of data
@@ -72,8 +80,8 @@ namespace Learn
 
 
             //Object initailizer
-            Car car3 = new Car() { Make = "Suzuki", Model = "Ciaz", VIN = "F1" };
-            Car car4 = new Car() { Make = "Toyota", Model = "Glanza", VIN = "G1" };
+            Car car4 = new Car() { Make = "Suzuki", Model = "Ciaz", VIN = "F1" };
+            Car car5 = new Car() { Make = "Toyota", Model = "Glanza", VIN = "G1" };
 
             //Collection initializer
             List<Car> myNewCarList = new List<Car>()
@@ -81,6 +89,28 @@ namespace Learn
                 new Car{Make="Honda",Model="City",VIN="C1"},
                 new Car{Make="Nissan",Model="GTR",VIN="D1"}
             };
+
+
+            //Int list
+            List<int?> integerList = new List<int?>(){
+                1,2,3,4,5, null
+            };
+
+            Console.WriteLine("int");
+            foreach (var item in integerList)
+            {
+                Console.WriteLine(item + " " + item?.GetType());
+            }
+            
+            //Converting int list to long list
+            List<long?> longList = integerList.ConvertAll<long?>(x => (long?)x);
+
+            Console.WriteLine("long");
+            foreach (var item in longList)
+            {
+                Console.WriteLine(item + " " + item?.GetType());
+            }
+
         }
     }
 }

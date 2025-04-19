@@ -1,6 +1,6 @@
 namespace Learn
 {
-    class First //Every method should be written inside the method
+    class First //Every method should be written inside the class
     {
         public void publicPrint()
         // |     |       |_ _ _ _ _ _ Method Name. 
@@ -36,10 +36,13 @@ namespace Learn
         public static void callByValue(int number)
         {
             number += 10;
+            Console.WriteLine($"Value of number inside function {number}");
         }
-        public static void callByReference(int[] number)
+        public static void callByReference(int[] numbers)
         {
-            number[0] += 10;
+            numbers[0] += 10;       //By default array is a reference type if we modify a value inside array it will reflect outside of the method
+            numbers = new int[]{2}; //Re-assigning the array won't change base array.
+            Console.WriteLine($"Value of number inside function {numbers[0]}");
         }
 
         public static void refKeyword(ref int age)
@@ -79,7 +82,7 @@ namespace Learn
             First f = new First(); // Here First is class name. f is the object name for the class First.
             f.publicPrint();
             Console.WriteLine("Non-static method sum = " + f.add(10, 20));
-            int sum = First.staticAdd(10, 20);
+            int sum = First.staticAdd(10, 20); //Calling the static methods directly using the class name
             Console.WriteLine("Static method sum = {0}", sum);
 
             //Call by value

@@ -4,6 +4,7 @@ namespace Learn
     {
         public static Private_Constructor? instance;
         // private static int x ;
+
         private Private_Constructor()
         {
             Console.WriteLine("Private construtor works");
@@ -15,6 +16,10 @@ namespace Learn
         {
             instance = new Private_Constructor();
             return instance;
+        }
+
+        public void privateConstructor(){
+            
         }
     }
 }
